@@ -5,10 +5,9 @@
 Primero definimos los servicios, los cuales serán **WordPress** y la base de datos con **MariaDB**.  
 
 ---
+services: 
 
-**services:**  
-
-  **wordpress:** --> nombre del servicio  
+  wordpress: --> nombre del servicio  
 
     image: wordpress:6-apache --> usa la imagen de WordPress versión 6, basada en Apache  
 
@@ -32,7 +31,7 @@ Primero definimos los servicios, los cuales serán **WordPress** y la base de da
 
 ---
 
-  **db:** --> nombre del servicio para la base de datos  
+  db: --> nombre del servicio para la base de datos  
 
     image: mariadb:11 --> usa la imagen oficial de MariaDB versión 11  
 
@@ -53,7 +52,7 @@ Primero definimos los servicios, los cuales serán **WordPress** y la base de da
 
 ---
 
-**volumes:** --> define los volúmenes persistentes utilizados por ambos servicios  
+volumes: --> define los volúmenes persistentes utilizados por ambos servicios  
 
   wp_data:  
   wp_db_data:  
