@@ -5,7 +5,6 @@
 Primero definimos los servicios, los cuales serán **WordPress** y la base de datos con **MariaDB**.  
 
 ---
-
 services: 
 
   wordpress: --> nombre del servicio  
