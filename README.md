@@ -4,7 +4,7 @@
 Primero definimos los servicios, los cuales seran WordPress y la base de datos con MariaDB
 
 **services:**
-  wordpress: --> nombre del servicio
+  **wordpress:** --> nombre del servicio
     image: wordpress:6-apache --> usa la imagen de WordPress version 6, basada en Apache
     container_name: wp --> nombre del contenedor 
     ports:
